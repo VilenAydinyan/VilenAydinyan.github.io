@@ -232,7 +232,7 @@
   top: 15px;
   font-family: "Tourney", cursive;
   color: black;
-  padding-left: 10px;
+  padding-left: 0.625px;
 }
 
 .sidebar {
@@ -249,7 +249,7 @@
 }
 
 .sidebar a {
-  padding: 8px 8px 8px 32px;
+  padding: 0.5rem 0.5rem 0.5rem 2rem;
   text-decoration: none;
   font-size: 25px;
   color: black;
@@ -271,11 +271,11 @@
 
 #main {
   transition: margin-left .5s;
-  padding: 16px;
+  padding: 1rem;
 }
 
 @media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
+  .sidebar {padding-top: 0.938rem;}
   .sidebar a {font-size: 18px;}
 }
 
