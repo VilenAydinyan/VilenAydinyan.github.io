@@ -270,13 +270,17 @@
 }
 
 #main {
-  transition: margin-left .5s;
+  transition: margin-left 0.5s;
   padding: 1rem;
 }
 
 @media screen and (max-height: 450px) {
-  .sidebar {padding-top: 0.938rem;}
-  .sidebar a {font-size: 18px;}
+  .sidebar {
+    padding-top: 0.938rem;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 770px) {
